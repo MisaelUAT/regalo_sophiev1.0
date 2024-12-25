@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Regalo para Sophie</title>
+    <link
+      rel="shortcut icon"
+      href="./img/gift-icon_34411.ico"
+      type="image/x-icon"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-pink-500">
+    <header
+      class="bg-fuchsia-400 text-white h-16 flex flex-row w-full items-center justify-center"
+    >
+      <h1 class="text-center text-lg font-bold font-serif">
+        Feliz Navidad Sophie Bonita
+      </h1>
+      <img src="./img/santaclaus_108480.png" class="min-[360px]:w-12 ms-1" />
+    </header>
+
+    <section class="flex flex-row justify-center">
+      <div
+        class="flex flex-row justify-center align-center bg-pink-300 min-[360px]:w-[95%] min-[360px]:rounded-md min-[360px]:h-72 mt-8 p-3"
+      >
+        <img
+          src="./img/flor.jpg"
+          class="min-[360px]:h-full min-[360px]:rounded-md"
+        />
+        <div class="min-[360px]:mt-10 min-[360px]:ms-2">
+          <p
+            class="font-serif p-2 text-white font-bold text-justify min-[360px]:text-sm"
+          >
+            "En un mundo repleto de flores, mi alma quedó atrapada por la
+            sublime belleza de la tuya.
+          </p>
+
+          <div class="flex flex-row justify-center">
+            <button
+              type="button"
+              class="bg-fuchsia-600 text-white p-1 border-1 rounded-lg font-serif font-medium min-[360px]:hover:bg-fuchsia-700"
+              id="btn_open1"
+            >
+              Hazme Click
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="flex flex-row justify-center">
+      <div
+        class="bg-pink-300 min-[360px]:w-[95%] min-[360px]:rounded-md mt-8 p-3 min-[360px]:max-h-max"
+      >
+        <h1
+          class="text-white font-bold font-serif min-[360px]:text-lg text-center"
+        >
+          Agradecimiento
+        </h1>
+        <p class="text-justify font-serif text-pink-800">
+          Quiero dedicarte unas palabras de agradecimiento. Gracias por el
+          tiempo, los recuerdos que hemos creado, las sonrisas que me has
+          sacado, por permitirme ver tu vida y ser espectador de tu grandeza y,
+          sobre todo, de tu desarrollo personal. También por siempre tener la
+          confianza de contarme sobre tu vida y permitirme compartir la mía
+          contigo. Aprecio enormemente el gran cariño que me tienes y por
+          hacerme sentir querido. Gracias por siempre apoyarme, creer en mí y
+          decirme cosas que nunca pensé sobre mí mismo. Agradezco que este año
+          haya sido uno de los mejores para mí, no solo porque mi salud mental
+          mejoró y mi tranquilidad también, sino también porque nos volvimos a
+          ver después de mucho tiempo y nos conocimos mejor que antes.
+          Convivimos más y profundizamos en cosas de cada quien. La verdad, tú
+          me hiciste ver muchas cosas buenas de la vida y fuiste una de las
+          causas por las que volví a tener amor propio y a darme cuenta de lo
+          capaz que soy.
+        </p>
+
+        <span class="w-full">
+          <p class="text-center mt-3 text-pink-800">Clickea al Gatito</p>
+        </span>
+        <div
+          class="flex flex-row justify-center align-center mt-8 min-[360px]:w-full"
+        >
+          <img src="./img/gato1.jpg" class="w-[60%]" id="image-cat" />
+          <div
+            class="hidden w-full flex flex-row justify-center"
+            id="container-message"
+          >
+            <div class="bg-white p-3 rounded-lg">
+              <p class="text-violet-600 font-bold">Te quiero mucho guapa</p>
+              <div class="w-full flex flex-row justify-center">
+                <img src="./img/corazon.jpg" class="min-[360px]:w-14" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="flex flex-row justify-center">
+      <div
+        class="bg-pink-300 min-[360px]:w-[95%] min-[360px]:rounded-md mt-8 p-3 min-[360px]:max-h-max"
+      >
+        <h1 class="text-center text-lg font-bold font-serif text-white">
+          Cosas que me gustan de ti
+        </h1>
+        <span class="w-full">
+          <p class="text-center mt-3 text-pink-800 font-bold">
+            Clickea las Imagenes
+          </p>
+        </span>
+
+        <div class="flex flex-col items-center">
+          <ol class="list-decimal text-pink-700 text-center list-inside">
+            <li>Tu valentía</li>
+            <div class="flex flex-row justify-center mt-5">
+              <img
+                src="./img/valentia.jpeg"
+                class="w-[70%]"
+                id="imagen-valentia"
+              />
+              <!--! Modal-->
+              <div class="bg-white p-3 rounded-lg hidden" id="modal-valentia">
+                <p class="text-violet-600 font-bold">
+                  Esa parte de ti es Bellaka
+                </p>
+                <div class="w-full flex flex-row justify-center">
+                  <img src="./img/diablito.jpeg" class="min-[360px]:w-14" />
+                </div>
+              </div>
+            </div>
+            <li class="mt-4">Tu inteligencia</li>
+            <div class="flex flex-row justify-center mt-5">
+              <img
+                src="./img/inteligencia.png"
+                class="w-[70%]"
+                id="imagen-inteligencia"
+              />
+              <!--! Modal-->
+              <div
+                class="bg-white p-3 rounded-lg hidden"
+                id="modal-inteligencia"
+              >
+                <p class="text-violet-600 font-bold">
+                  Es una de mis partes favoritas de ti
+                </p>
+                <div class="w-full flex flex-row justify-center">
+                  <img
+                    src="./img/inteligencia_icono.png"
+                    class="min-[360px]:w-14"
+                  />
+                </div>
+              </div>
+            </div>
+
+            <li class="mt-4">Tu Talento en la Danza de Telas</li>
+            <div class="flex flex-row justify-center mt-5">
+              <img
+                src="./img/icono-artista.jpeg"
+                class="w-[70%]"
+                id="imagen-artista"
+              />
+              <!--! Modal-->
+              <div class="bg-white p-3 rounded-lg hidden" id="modal-artista">
+                <p class="text-violet-600 font-bold">
+                  Acaso eres una estrella o porque tanto deslumbre cuando haces
+                  lo que te apasiona
+                </p>
+                <div class="w-full flex flex-row justify-center">
+                  <img src="./img/icono_flor.jpg" class="min-[360px]:w-14" />
+                </div>
+              </div>
+            </div>
+
+            <li class="mt-4">Tu lado random</li>
+            <div class="flex flex-row justify-center mt-5">
+              <img src="./img/chill.png" class="w-[70%]" id="imagen-random" />
+              <!--! Modal-->
+              <div class="bg-white p-3 rounded-lg hidden" id="modal-random">
+                <p class="text-violet-600 font-bold">
+                  Me encanta cuando sacas ese lado bien insano
+                </p>
+                <div class="w-full flex flex-row justify-center">
+                  <img src="./img/rata.jpg" class="min-[360px]:w-14" />
+                </div>
+              </div>
+            </div>
+
+            <li class="mt-4">Todo de ti</li>
+            <div class="flex flex-row justify-center mt-5">
+              <img
+                src="./img/belleza.png"
+                class="w-[70%]"
+                id="imagen-belleza"
+              />
+              <!--! Modal-->
+              <div class="bg-white p-3 rounded-lg hidden" id="modal-belleza">
+                <p class="text-violet-600 font-bold">
+                  Es que tú para mis ojos eres hermosa
+                </p>
+                <div class="w-full flex flex-row justify-center">
+                  <img src="./img/icono_flor.jpg" class="min-[360px]:w-14" />
+                </div>
+              </div>
+            </div>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <section class="flex flex-row justify-center">
+      <div
+        class="bg-pink-300 min-[360px]:w-[95%] min-[360px]:rounded-md mt-8 p-3 min-[360px]:max-h-max"
+      >
+        <h1 class="text-center text-lg font-bold font-serif text-white">
+          Tu felicidad, Mi felicidad
+        </h1>
+
+        <p class="text-justify text-pink-800 ">
+          Espero que en este día lo estés disfrutando con tu familia y seres
+          queridos. También espero que se te estén cumpliendo tus metas y
+          objetivos de vida, que día a día vayas creciendo más y más para poder
+          alcanzar tus sueños. Nunca dejes de creer en ti misma. Tú tienes
+          potencial, yo sé que llegarás muy lejos y sé que has tenido malos
+          momentos y tropiezos, pero solo son temporales, no les des
+          importancia. Siempre ten en tu mente clara hasta dónde quieres llegar,
+          quién quieres ser y cómo lo lograrás. Espero que aprendas mucho en la
+          escuela, que si tienes alguna duda, con toda confianza puedes decirme
+          y, sobre todo, sé que llegarás muy lejos porque tú eres inteligente y
+          apenas vas agarrando la onda y vas a aprender más y más hasta tal
+          punto que un día vas a verlo todo de una manera más técnica y con tus
+          conocimientos sé que serás una licenciada destacable. Me alegro mucho
+          de que también le estés dando importancia a lo que tú quieres hacer,
+          cumplir esa gran pasión que tienes por la danza aérea y sé que vas a
+          llegar a ser una bailarina profesional y espero volver a presenciar el
+          arte que tú amas y algo que tú fuiste creando con el tiempo y también
+          tu experiencia. Ay Sophie, yo te admiro mucho y sé que llegarás muy
+          lejos, aunque no hablamos seguido y ya no nos veamos, sigo enamorado
+          de ti y sé que ahorita los cambios que estás haciendo en tu vida te
+          darán frutos en el futuro. Espero poder verte triunfando porque yo
+          siempre creí en ti desde que hablamos. Tú fuiste la primera persona
+          que me hizo sentir sentimientos y emociones expresados mediante tu
+          arte cuando fue tu presentación de diciembre hace dos años. Te amo
+          Sophie, yo quiero verte feliz y también que sigas tus sueños, ya que
+          como quiera estaré aquí para ayudarte en lo que pueda y también para
+          recordarte lo valiosa que eres no solo para mí, sino también para tu
+          papá, tus amigos, familia y seres queridos. Mientras pueda verte
+          sonreír, yo estoy feliz porque he presenciado tu desarrollo personal
+          que has tenido este año y me alegro de que ya estás retomando tu
+          camino. Ánimo preciosa, tú puedes. Feliz Navidad Sophie.
+        </p>
+        <div class="w-full flex flex-row justify-center">
+          <img src="./img/navidad.png" class="w-[60%] mt-3" id="image-cat" />
+
+        </div>
+      </div>
+
+      </div>
+    </section>
+
+    <!-- Modal de Boton1 -->
+    <div
+      class="fixed hidden inset-0 bg-fuchsia-400 bg-opacity-60 flex items-center justify-center"
+      id="modal-sect-1"
+    >
+      <div class="bg-fuchsia-600 p-8 rounded-lg shadow-lg min-[360px]:max-w-xs">
+        <h4 class="text-white font-bold font-serif text-lg">Querida Sophie</h4>
+        <p class="text-white text-justify">
+          Espero que estés teniendo un día maravilloso. Este regalo lo hice con
+          mucho amor y dedicación. Si estás leyendo esto, solo quiero que sepas
+          que eres muy importante para mí. Aunque ahora estemos en caminos
+          diferentes, mi amor sigue siendo el mismo, que me tomé mi tiempo y
+          todo mi conocimiento para hacerte esta página. Quería expresar todo lo
+          bello que pienso y siento por ti, y compartir algunas palabras para
+          esta Navidad.
+        </p>
+        <div class="w-full flex flex-row justify-center mt-2">
+          <button
+            type="button"
+            id="btn_close1"
+            class="bg-fuchsia-400 text-white p-1.5 border-1 rounded-lg font-serif font-medium min-[360px]:hover:bg-fuchsia-500"
+          >
+            Cerrar
+          </button>
+        </div>
+      </div>
+    </div>
+    <script src="./scripts/index.js"></script>
+  </body>
+</html>
